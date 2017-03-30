@@ -1,0 +1,1 @@
+exports.myText = "Hello world loaded from module...";

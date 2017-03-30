@@ -1,0 +1,13 @@
+<div>
+  <br>
+  <h3>{{title}}</h3>
+  <div>
+    2 Way Binding at work <br>
+    <input [(ngModel)]="movie.name">
+  </div>
+  <p>{{movie.name}}</p>
+  <div>
+    1 Way Binding at work <br>
+    <input [value]="movie.name">
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.hide-msg {
+  display: none;
+}
+
+.show-msg {
+  display: block;
+}
+
+.alert {
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  width: 70%;
+}

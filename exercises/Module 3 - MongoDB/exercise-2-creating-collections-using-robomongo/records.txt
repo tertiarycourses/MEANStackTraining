@@ -1,0 +1,45 @@
+﻿db.members.insert(
+{ 
+	"name": "Becka Newman",
+	"profile": "Graphic Designer",
+	"experience": "2 yrs",
+	"skills": "PhotoShop, Illustrator",
+	"engagement" : "external",
+	"agency": "Ogilvy" 
+});
+db.members.insert(
+{ 
+	"name": "Chin Boon, Woo",
+	"profile": "Product Owner",
+	"experience": "12 yrs",
+	"skills": "Writing User Stories, JIRA, Confluence, Project Planning",
+	"engagement" : "internal",
+	"agency": "DBS" 
+});
+db.members.insert(
+{ 
+	"name": "Justin Ang",
+	"profile": "Scrum Master",
+	"experience": "5 yrs",
+	"skills": "JIRA, Confluence, Backlog Grooming, Scrum Planning",
+	"engagement" : "internal",
+	"agency": "DBS" 
+});
+db.members.insert(
+{ 
+	"name": "Paul Irish",
+	"profile": "Front End Developer",
+	"experience": "1 yr",
+	"skills": "Angular JS, JavaScript, CSS, BootStrap, Jquery, HTML",
+	"engagement" : "external",
+	"agency": "Accenture" 
+});
+db.members.insert(
+{ 
+	"name": "Paula Tan",
+	"profile": "QA Tester",
+	"experience": "3 yrs",
+	"skills": "Manual Testing, Automation, Selenium",
+	"engagement" : "external",
+	"agency": "RecruitFirst" 
+});

@@ -1,0 +1,27 @@
+<div class="container">
+  <h1 class="center page-title">DBS - Team Agile Avengers</h1>
+  <hr>
+  <div class="row clearfix">
+  	<div class="right">
+      <button (click)="onShowAddMemberTemplate()" class="btn">+ Add New Member</button>
+    </div>
+  </div>
+  <hr>
+  <div class="row clearfix">
+    <div class="left-column left">
+      <div class="row list-view">
+        <div *ngFor="let member of teamMemberList" (click)="onShowMemberDetails(member)">
+          <div class="member-item">
+            <div class="member-name">{{member.name}}</div>
+            <div class="profile">{{member.profile}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-column right">
+		  <member-detail [showMemberFlag]="showMemberTemplate" [selectedMember]="selectedTeamMember" (onEditMember)="onEditMemberDetails($event)" (onDeleteMember)="onDeleteMemberDetails($event)"></member-detail>
+      <edit-member [editMemberFlag]="showEditMemberTemplate" [selectedMember]="selectedTeamMember" (onSubmitData)="onSubmitMemberUpdates($event)"></edit-member>
+		  <new-member [newMemberFlag]="showNewMemberTemplate" (onAddMember)="onAddMemberDetails($event)"></new-member>
+    </div>
+  </div>
+</div>

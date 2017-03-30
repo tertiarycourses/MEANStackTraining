@@ -1,0 +1,17 @@
+<div *ngIf="showMemberFlag">
+	<div class="mv-detail-header">
+		<h2 class="member-title center">Member Details</h2>
+	</div>
+	<div class="mv-detail-body">
+		<p>Member Name: <b>{{selectedMember.name}}</b></p>
+		<p>Profile: <b>{{selectedMember.profile}}</b></p>
+		<p>Experience: <b>{{selectedMember.experience}}</b></p>
+		<p>Skills: <b>{{selectedMember.skills}}</b></p>
+		<p [ngClass]="{green: isDirect, red: !isDirect}">Engagement Type: <b>{{selectedMember.engagement}}</b></p>
+		<p>Agency: <b>{{selectedMember.agency}}</b></p>
+	</div>
+	<div class="mv-detail-buttons">
+		<button (click)="onEditMemberDetails()" class="btn right submit-member">Edit Member Details</button>
+		<button (click)="onDeleteMemberDetails()" class="btn right submit-member">Delete Member</button>
+	</div>
+</div>
