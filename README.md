@@ -1,5 +1,5 @@
 # MEAN Stack Development Essential Training
-## by [Tertiary Infotech Pte. Ltd] (https://www.tertiarycourses.com.sg/)
+## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [MEAN Stack Development Essential Training](https://www.tertiarycourses.com.sg/mean-stack-development-training.html) course. 
 
